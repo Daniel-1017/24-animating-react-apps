@@ -43,7 +43,7 @@ class App extends Component {
           onEntered={() => console.log("onEntered")}
           onExit={() => console.log("onExit")}
           onExiting={() => console.log("onExiting")}
-          onExited={() => console.log("onEnted")}
+          onExited={() => console.log("onExited")}
         >
           {(state) => (
             <div
